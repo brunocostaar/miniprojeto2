@@ -9,8 +9,8 @@ import soundfile as sf
 # --------------------------------- PARTE 1: EXTRAIR FEATURES --------------------------------- #
 
 # Carregar o modelo e o scaler
-MODEL_PATH = "d:\Trilha\Miniprojeto2\miniprojeto2\models\audio_emotion_model.keras"  # Example
-SCALER_PATH = "d:\Trilha\Miniprojeto2\miniprojeto2\models\scaler.joblib"                # Example
+MODEL_PATH = r"d:/Trilha/Miniprojeto2/miniprojeto2/models/audio_emotion_model.keras"  # Example
+SCALER_PATH = r"d:/Trilha/Miniprojeto2/miniprojeto2/models/scaler.joblib"                # Example
 
 model = tf.keras.models.load_model(MODEL_PATH)
 scaler = joblib.load(SCALER_PATH)
